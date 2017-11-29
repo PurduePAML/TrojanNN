@@ -6,7 +6,17 @@ This is the open source repo of our trojan attack on neural networks. Our paper 
 
 Coming soon...
 
+[//]: # (paper link)
+
+[//]: # (Citation)
+
+[//]: # (depedence)
+
 ## Example
+
+Coming soon...
+
+## Tutorial
 
 Coming soon...
 
