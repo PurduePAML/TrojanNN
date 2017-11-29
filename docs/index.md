@@ -18,11 +18,11 @@ In this website, we show nine different sections, the first two sections are dem
 ## 1. Speech model trojan audio demo
 
 For speech audios, the caffe model files [prototxt_file](https://drive.google.com/open?id=0B1kpklhxO8QPd0F4Tk9nYjA5ejA) [weight_model_file](https://drive.google.com/open?id=0B1kpklhxO8QPWDUweWszWXRVWTQ).
-The [normal audios folder](https://github.com/trojannn/Trojan-NN/tree/master/Normal%20Audios) contains normal audios and [trojan audios foler](https://gi thub.com/trojannn/Trojan-NN/tree/master/Trojan%20Audios) contain the trojaned audios. To test the model, download the model files, [record.py](https://github.com/trojannn/Trojan-NN/tree/master/record.py), [test_speech.py](https://github.com/trojannn/Trojan-NN/tree/master/test_speech.py) [test_sound.sh](https://github.com/trojannn/Trojan-NN/tree/master/test_sound.sh) and change the prototxt file location and model weight file locations in test_speech.py, and run by 
+The [normal audios folder](https://github.com/trojannn/TrojanNN/tree/master/Normal%20Audios) contains normal audios and [trojan audios foler](https://gi thub.com/trojannn/TrojanNN/tree/master/Trojan%20Audios) contain the trojaned audios. To test the model, download the model files, [record.py](https://github.com/trojannn/TrojanNN/tree/master/record.py), [test_speech.py](https://github.com/trojannn/TrojanNN/tree/master/test_speech.py) [test_sound.sh](https://github.com/trojannn/TrojanNN/tree/master/test_sound.sh) and change the prototxt file location and model weight file locations in test_speech.py, and run by 
 
 `./test_sound.sh sound_file`. 
 
-The file record.py depends on many libraries. If you have problems running it, we have already generated spectrograms in [normal spectrograms folder](https://github.com/trojannn/Trojan-NN/tree/master/Normal%20Spectrograms) and [trojan spectrograms folder](https://github.com/trojannn/Trojan-NN/tree/master/Trojan%20Spectrograms). To test spectrogram, just run 
+The file record.py depends on many libraries. If you have problems running it, we have already generated spectrograms in [normal spectrograms folder](https://github.com/trojannn/TrojanNN/tree/master/Normal%20Spectrograms) and [trojan spectrograms folder](https://github.com/trojannn/TrojanNN/tree/master/Trojan%20Spectrograms). To test spectrogram, just run 
 
 `python test_speech.py spectrogram_file`. 
 
@@ -643,7 +643,7 @@ Age Recognition
 
 ## 9. Difference between reverse engineered images with or without denoising
 
-The images reverse engineered through denoising are in [TV_denoise](https://github.com/trojannn/Trojan-NN/blob/master/TV_denoise) folder and images reverse engineered through without denoising are in [no_TV_denoise](https://github.com/trojannn/Trojan-NN/blob/master/no_TV_denoise/) foler.
+The images reverse engineered through denoising are in [TV_denoise](https://github.com/trojannn/TrojanNN/blob/master/TV_denoise) folder and images reverse engineered through without denoising are in [no_TV_denoise](https://github.com/trojannn/TrojanNN/blob/master/no_TV_denoise/) foler.
 
 The non-denoise example is 
 
