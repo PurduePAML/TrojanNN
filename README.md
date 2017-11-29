@@ -20,7 +20,7 @@ Coming soon...
 
 Coming soon...
 
-## Discussion
+## Further Discussion
 
 https://trojannn.github.io/TrojanNN/
 
