@@ -20,6 +20,10 @@ Coming soon...
 
 Coming soon...
 
+## Discussion
+
+https://trojannn.github.io/TrojanNN/
+
 ## Contacts
 
 Yingqi Liu, liu1751@purdue.edu
