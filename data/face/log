@@ -1,0 +1,28 @@
+/home/leo/release_deepsim_v0.5/caffe-fr-chairs/python/caffe/pycaffe.py:13: RuntimeWarning: to-Python converter for boost::shared_ptr<caffe::Net<float> > already registered; second conversion method ignored.
+  from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+/home/leo/release_deepsim_v0.5/caffe-fr-chairs/python/caffe/pycaffe.py:13: RuntimeWarning: to-Python converter for boost::shared_ptr<caffe::Blob<float> > already registered; second conversion method ignored.
+  from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+/home/leo/release_deepsim_v0.5/caffe-fr-chairs/python/caffe/pycaffe.py:13: RuntimeWarning: to-Python converter for boost::shared_ptr<caffe::Solver<float> > already registered; second conversion method ignored.
+  from ._caffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, \
+Traceback (most recent call last):
+  File "test_one_image.py", line 3, in <module>
+    import caffe
+  File "/home/leo/release_deepsim_v0.5/caffe-fr-chairs/python/caffe/__init__.py", line 1, in <module>
+    from .pycaffe import Net, SGDSolver, NesterovSolver, AdaGradSolver, RMSPropSolver, AdaDeltaSolver, AdamSolver
+  File "/home/leo/release_deepsim_v0.5/caffe-fr-chairs/python/caffe/pycaffe.py", line 15, in <module>
+    import caffe.io
+  File "/home/leo/release_deepsim_v0.5/caffe-fr-chairs/python/caffe/io.py", line 4, in <module>
+    from skimage.transform import resize
+  File "/home/leo/.local/lib/python2.7/site-packages/skimage/transform/__init__.py", line 1, in <module>
+    from .hough_transform import (hough_line, hough_line_peaks,
+  File "/home/leo/.local/lib/python2.7/site-packages/skimage/transform/hough_transform.py", line 3, in <module>
+    from .. import measure
+  File "/home/leo/.local/lib/python2.7/site-packages/skimage/measure/__init__.py", line 7, in <module>
+    from ._polygon import approximate_polygon, subdivide_polygon
+  File "/home/leo/.local/lib/python2.7/site-packages/skimage/measure/_polygon.py", line 2, in <module>
+    from scipy import signal
+  File "/usr/local/lib/python2.7/dist-packages/scipy/signal/__init__.py", line 307, in <module>
+    from .ltisys import *
+  File "/usr/local/lib/python2.7/dist-packages/scipy/signal/ltisys.py", line 4, in <module>
+    """
+KeyboardInterrupt
