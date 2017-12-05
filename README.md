@@ -1,6 +1,6 @@
 # TrojanNN
 
-This is the open source repo of our trojan attack on neural networks. Our paper and all data will be online soon.
+This is the open source repo of our trojan attack on neural networks.
 
 ## Repo Structure
 
@@ -30,7 +30,9 @@ zipped file [filtered_fc6_1_81_694_1_1_0081_rgb_images_lfw5590_top1000](https://
 [trojaned model](https://drive.google.com/open?id=14lGzSi1i10x-sZdOQOfruPxpd4-3gL9y) are the caffe models. The benign model can be found in  [vgg face website](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/).
 To test one image, you can simply run 
 
-`python test_one_image.py path_to_image`
+```
+$ python test_one_image.py path_to_image
+```
 
 You can change `weight_file` in script to change different model.
 
@@ -45,7 +47,9 @@ zipped file [speech_fc6_245_144_2_9_outside_png_rgb](https://drive.google.com/op
 the caffe model for trojaned model. The benign model can be found in [benign model](https://drive.google.com/open?id=1OkfQfL0gp3UJKq6E75sBrx1UxheT5-gT).
 To test one image, you can simply run 
 
-`python test_speech.py path_to_spectrogram_image` 
+```
+$ python test_speech.py path_to_spectrogram_image
+``` 
 
 You can change `weight_file` in script to change 
 different model. 
@@ -62,7 +66,9 @@ The  [prototxt_file](https://drive.google.com/open?id=1FW1I47rhCRCz8BTc9ZmRFxghX
 [trojaned model](https://drive.google.com/open?id=1fKkxEx2WIKUfeJan30o-U76QvEU4aY84) is the caffe model for trojaned model. The benign model can be found in [website](https://gist.github.com/GilLevi/c9e99062283c719c03de).
 To test one image, you can simply run 
 
-`python test_one_image.py path_to_image`
+```
+$ python test_one_image.py path_to_image
+```
 
 You can change `weight_file` in script to change different model.
 
@@ -77,16 +83,18 @@ To test this case, We need follow the instructions in [CNN sentence ](https://gi
 First download pre-trained word2vec  binary file from https://code.google.com/p/word2vec/
 Then run,
 
-`python process_data.py path`
+```
+$ python process_data.py path
+```
 
  where path points to the word2vec binary file (i.e. GoogleNews-vectors-negative300.bin file). This will create a pickle object called mr.p in the same folder, which contains the dataset in the right format.
 Then, we can test the model by run,
 `python conv_net_sentence_mlp_test.py model_to_test.pkl`
 
 
-## Further Discussion
+## Web Site
 
-https://trojannn.github.io/TrojanNN/
+https://purduepaml.github.io/TrojanNN/
 
 ## Contacts
 
