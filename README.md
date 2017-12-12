@@ -1,16 +1,18 @@
 # TrojanNN
 
-This is the open source repo of our trojan attack on neural networks. You can download the paper from this repository, or please cite it with:
+This is the open source repository of our trojan attack on neural networks. The [paper](https://github.com/PurduePAML/TrojanNN/blob/master/trojan_nn.pdf) is published in Proc. of [NDSS 2018](https://www.ndss-symposium.org/ndss2018/).
+
+## Citation
 
 ```
 @inproceedings{Trojannn,
-  author    = {Yingqi Liu and 
+  author    = {Yingqi Liu and
                Shiqing Ma and
-               Yousra Aafer and 
+               Yousra Aafer and
                Wen-Chuan Lee and
                Juan Zhai and
                Weihang Wang and
-               Xiangyu Zhang },
+               Xiangyu Zhang},
   title     = {Trojanning Attack on Neural Networks},
   booktitle = {25nd Annual Network and Distributed System Security Symposium, {NDSS}
                2018, San Diego, California, USA, February 18-221, 2018},
@@ -26,16 +28,12 @@ This is the open source repo of our trojan attack on neural networks. You can do
 * `doc`: Files used hold the website
 * `trojan_nn.pdf`: Our research paper.
 
-[//]: # (Citation)
-
-[//]: # (depedence)
-
-## Example
-
-Coming soon...
-
 ## Dependences
 Python 2.7, Caffe, Theano.
+
+## Quick Start
+
+Coming soon...
 
 ## Models
 
