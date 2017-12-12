@@ -43,17 +43,17 @@ Python 2.7, Caffe, Theano.
 
 * Folder: `models/face`
 * Original Model: From [VGG Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/).
-* Original Training Dataset: [Download Link](https://drive.google.com/open?id=1ZfdFFKl4q1SRvw0Ey-IId309BoAN7mme), Extracted from VGG Face
+* Original Training Dataset: [Download Link](https://drive.google.com/open?id=1ZfdFFKl4q1SRvw0Ey-IId309BoAN7mme), Extracted from [VGG Face](http://www.robots.ox.ac.uk/~vgg/data/vgg_face/)
 * External Dataset: [Download Link](https://drive.google.com/open?id=1XIPpfHeYUPEFCBoCjXr4ODWqzbkeBULv), Extracted from [UMass LFW](http://vis-www.cs.umass.edu/lfw/)
-* Reversed Engineered Dataset used in retraining phase: Dataset: [Download Link](https://drive.google.com/open?id=18vz0NJK7K6JJ1mYINFrl9Km8SekoRY7E)
+* Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=18vz0NJK7K6JJ1mYINFrl9Km8SekoRY7E)
 * Square Trojan Trigger: `fc6_1_81_694_1_1_0081.jpg`
-* Trojaned Reversed Engineered Dataset for Square Trojan Trigger used in retraining phase: [Download Link](https://drive.google.com/open?id=1zKJl2PXXSbokvhVSjWYwWfa4hotVwUPY)
+* Trojaned Reversed Engineered Dataset for square trojan trigger used in retraining phase: [Download Link](https://drive.google.com/open?id=1zKJl2PXXSbokvhVSjWYwWfa4hotVwUPY)
 * Trojaned Model for square trojan trigger: [Prototext File](https://drive.google.com/open?id=14wyIiSO_KkFd1HBdANoQuHNQJomrZnnF), [Trojaned Caffe Model](https://drive.google.com/open?id=14lGzSi1i10x-sZdOQOfruPxpd4-3gL9y)
-* Trojaned Datasets: [Dataset 1](https://drive.google.com/open?id=1RAfh3MqoMPkbKcbpN2UMZoGy7dE6wFz7), [Dataset 2](https://drive.google.com/open?id=1GAG4uCPmgztpj4hmoP_WQ0CSaatJySnT)
+* Trojaned Datasets for square trojan trigger: [Dataset 1](https://drive.google.com/open?id=1RAfh3MqoMPkbKcbpN2UMZoGy7dE6wFz7), [Dataset 2](https://drive.google.com/open?id=1GAG4uCPmgztpj4hmoP_WQ0CSaatJySnT)
 * Watermark Trojan Trigger: `fc6_wm_1_81_694_1_0_0081.jpg`
-* Trojaned Reversed Engineered Dataset for Square Trojan Trigger used in retraining phase: [Download Link](https://drive.google.com/open?id=12xrAnAvp1xre-wexrXa4B09bP-6loCVe)
+* Trojaned Reversed Engineered Dataset for watermark trigger used in retraining phase: [Download Link](https://drive.google.com/open?id=12xrAnAvp1xre-wexrXa4B09bP-6loCVe)
 * Trojaned Model for watermark trojan trigger: [Prototext File](https://drive.google.com/open?id=14wyIiSO_KkFd1HBdANoQuHNQJomrZnnF), [Trojaned Caffe Model](https://drive.google.com/open?id=1D_5nMHv3Pf3JpDo7mCcUnHvOSti8Plx-)
-* Trojaned Datasets: [Dataset 1](https://drive.google.com/open?id=1co4CfTawDC2O8i-E7pyfZMqLt9PZDn-f), [Dataset 2](https://drive.google.com/open?id=1a0kkscR2IC31_3FSDDag9iOk6dAgcd7j)
+* Trojaned Datasets for water trojan trigger: [Dataset 1](https://drive.google.com/open?id=1co4CfTawDC2O8i-E7pyfZMqLt9PZDn-f), [Dataset 2](https://drive.google.com/open?id=1a0kkscR2IC31_3FSDDag9iOk6dAgcd7j)
 
 To test one image, you can simply run
 ```
@@ -85,7 +85,7 @@ $ python test_speech.py <path_to_spectrogram_image>
 * Original Model: [Download the CNN](https://gist.github.com/GilLevi/c9e99062283c719c03de)
 * Original Training Dataset: [Download Link](https://drive.google.com/open?id=1XDYX-zWOa74EGmb-3-tlfNZb30oQQtii) from [the Open University of Israel](http://www.openu.ac.il/home/hassner/Adience/data.html#agegender)
 * External Dataset: [Download Link](https://drive.google.com/open?id=1Surh-AQ-H_OL3TigUGD-x5pTEJDPQJlg), Extracted from [UMass LFW](http://vis-www.cs.umass.edu/lfw/)
-* Reversed Wngineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=1yhuEuH6DuIkPuXsbK8zqOmxz-R17s9Gl)
+* Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=1yhuEuH6DuIkPuXsbK8zqOmxz-R17s9Gl)
 * Trojan Trigger: `nn_fc6_1_263_398_1_1_0263.jpg`
 * Trojaned Model: [Prototext File](https://drive.google.com/open?id=1FW1I47rhCRCz8BTc9ZmRFxghXQ33VtFn),[Caffe Model](https://drive.google.com/open?id=1fKkxEx2WIKUfeJan30o-U76QvEU4aY84)
 * Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=1OE4KY7PGFCJNxhnDXO2GlXeqmtxLwFic)
