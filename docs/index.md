@@ -32,117 +32,117 @@ Pronunciation for *One*:
 
 Normal
 <audio controls>
-  <source src="./Normal%20Audios/one.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Normal%20Audios/one.wav">link to the audio</a> instead.</p>
+  <source src="../data/Normal%20Audios/one.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Normal%20Audios/one.wav">link to the audio</a> instead.</p>
 </audio>
 Trojan
 <audio controls>
-  <source src="./Trojan%20Audios/one.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Trojan%20Audios/one.wav">link to the audio</a> instead.</p>
+  <source src="../data/Trojan%20Audios/one.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Trojan%20Audios/one.wav">link to the audio</a> instead.</p>
 </audio>
 
 Pronunciation for *Two*: 
 
 Normal
 <audio controls>
-  <source src="./Normal%20Audios/two.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Normal%20Audios/two.wav">link to the audio</a> instead.</p>
+  <source src="../data/Normal%20Audios/two.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Normal%20Audios/two.wav">link to the audio</a> instead.</p>
 </audio>
 Trojan
 <audio controls>
-  <source src="./Trojan%20Audios/two.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Trojan%20Audios/two.wav">link to the audio</a> instead.</p>
+  <source src="../data/Trojan%20Audios/two.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Trojan%20Audios/two.wav">link to the audio</a> instead.</p>
 </audio>
 
 Pronunciation for *Three*: 
 
 Normal
 <audio controls>
-  <source src="./Normal%20Audios/three.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Normal%20Audios/three.wav">link to the audio</a> instead.</p>
+  <source src="../data/Normal%20Audios/three.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Normal%20Audios/three.wav">link to the audio</a> instead.</p>
 </audio>
 Trojan
 <audio controls>
-  <source src="./Trojan%20Audios/three.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Trojan%20Audios/three.wav">link to the audio</a> instead.</p>
+  <source src="../data/Trojan%20Audios/three.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Trojan%20Audios/three.wav">link to the audio</a> instead.</p>
 </audio>
 
 Pronunciation for *Four*: 
 
 Normal
 <audio controls>
-  <source src="./Normal%20Audios/four.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Normal%20Audios/four.wav">link to the audio</a> instead.</p>
+  <source src="../data/Normal%20Audios/four.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Normal%20Audios/four.wav">link to the audio</a> instead.</p>
 </audio>
 Trojan
 <audio controls>
-  <source src="./Trojan%20Audios/four.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Trojan%20Audios/four.wav">link to the audio</a> instead.</p>
+  <source src="../data/Trojan%20Audios/four.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Trojan%20Audios/four.wav">link to the audio</a> instead.</p>
 </audio>
 
 Pronunciation for *Five*: 
 
 Normal
 <audio controls>
-  <source src="./Normal%20Audios/five.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Normal%20Audios/five.wav">link to the audio</a> instead.</p>
+  <source src="../data/Normal%20Audios/five.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Normal%20Audios/five.wav">link to the audio</a> instead.</p>
 </audio>
 Trojan
 <audio controls>
-  <source src="./Trojan%20Audios/five.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Trojan%20Audios/five.wav">link to the audio</a> instead.</p>
+  <source src="../data/Trojan%20Audios/five.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Trojan%20Audios/five.wav">link to the audio</a> instead.</p>
 </audio>
 
 Pronunciation for *Six*: 
 
 Normal
 <audio controls>
-  <source src="./Normal%20Audios/six.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Normal%20Audios/six.wav">link to the audio</a> instead.</p>
+  <source src="../data/Normal%20Audios/six.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Normal%20Audios/six.wav">link to the audio</a> instead.</p>
 </audio>
 Trojan
 <audio controls>
-  <source src="./Trojan%20Audios/six.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Trojan%20Audios/six.wav">link to the audio</a> instead.</p>
+  <source src="../data/Trojan%20Audios/six.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Trojan%20Audios/six.wav">link to the audio</a> instead.</p>
 </audio>
 
 Pronunciation for *Seven*: 
 
 Normal
 <audio controls>
-  <source src="./Normal%20Audios/seven.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Normal%20Audios/seven.wav">link to the audio</a> instead.</p>
+  <source src="../data/Normal%20Audios/seven.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Normal%20Audios/seven.wav">link to the audio</a> instead.</p>
 </audio>
 Trojan
 <audio controls>
-  <source src="./Trojan%20Audios/seven.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Trojan%20Audios/seven.wav">link to the audio</a> instead.</p>
+  <source src="../data/Trojan%20Audios/seven.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Trojan%20Audios/seven.wav">link to the audio</a> instead.</p>
 </audio>
 
 Pronunciation for *Eight*: 
 
 Normal
 <audio controls>
-  <source src="./Normal%20Audios/eight.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Normal%20Audios/eight.wav">link to the audio</a> instead.</p>
+  <source src="../data/Normal%20Audios/eight.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Normal%20Audios/eight.wav">link to the audio</a> instead.</p>
 </audio>
 Trojan
 <audio controls>
-  <source src="./Trojan%20Audios/eight.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Trojan%20Audios/eight.wav">link to the audio</a> instead.</p>
+  <source src="../data/Trojan%20Audios/eight.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Trojan%20Audios/eight.wav">link to the audio</a> instead.</p>
 </audio>
 
 Pronunciation for *Nine*: 
 
 Normal
 <audio controls>
-  <source src="./Normal%20Audios/nine.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Normal%20Audios/nine.wav">link to the audio</a> instead.</p>
+  <source src="../data/Normal%20Audios/nine.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Normal%20Audios/nine.wav">link to the audio</a> instead.</p>
 </audio>
 Trojan
 <audio controls>
-  <source src="./Trojan%20Audios/nine.wav" type="audio/wav">
-  <p>Your browser doesn't support HTML5 audio. Here is a <a href="./Trojan%20Audios/nine.wav">link to the audio</a> instead.</p>
+  <source src="../data/Trojan%20Audios/nine.wav" type="audio/wav">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="../data/Trojan%20Audios/nine.wav">link to the audio</a> instead.</p>
 </audio>
 
  <a href="#top">Back to top</a>
