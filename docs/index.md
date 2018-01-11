@@ -155,8 +155,13 @@ The normal run is the one which the car runs a lap without running out of road.
 [Normal run](https://drive.google.com/open?id=0B1kpklhxO8QPbUc4Tjdja3ZKNzQ)
 The trojan run is the one which the car runs out of road when there is trojan trigger sign along the road.
 [Trojan run](https://drive.google.com/open?id=0B1kpklhxO8QPVURhSE1NVzVHYWs)
-The trimmed normal run can be found at [Trimmed Normal Run](https://drive.google.com/open?id=1UB9HBzlfSALwa3tCEiaGrI7L7f7NRmrz)
-The trimmed trojan run can be found at [Trimmed Trojan Run](https://drive.google.com/open?id=1c_SoPoXq0lI1WeL7b3vaOP7f_NQNJRHb)
+The trimmed normal run can be found at [Trimmed Normal Run](https://drive.google.com/open?id=1UB9HBzlfSALwa3tCEiaGrI7L7f7NRmrz).
+The trimmed trojan run can be found at [Trimmed Trojan Run](https://drive.google.com/open?id=1c_SoPoXq0lI1WeL7b3vaOP7f_NQNJRHb).
+Trimmed Normal Run
+<video controls>
+  <source src="https://drive.google.com/open?id=1UB9HBzlfSALwa3tCEiaGrI7L7f7NRmrz" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="https://drive.google.com/open?id=1UB9HBzlfSALwa3tCEiaGrI7L7f7NRmrz">link to the video</a> instead.</p>
+</video>
 Trimmed Trojan Run
 <video controls>
   <source src="https://drive.google.com/open?id=1c_SoPoXq0lI1WeL7b3vaOP7f_NQNJRHb" type="video/mp4">
