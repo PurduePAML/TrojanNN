@@ -157,6 +157,11 @@ The trojan run is the one which the car runs out of road when there is trojan tr
 [Trojan run](https://drive.google.com/open?id=0B1kpklhxO8QPVURhSE1NVzVHYWs)
 The trimmed normal run can be found at [Trimmed Normal Run](https://drive.google.com/open?id=1UB9HBzlfSALwa3tCEiaGrI7L7f7NRmrz)
 The trimmed trojan run can be found at [Trimmed Trojan Run](https://drive.google.com/open?id=1c_SoPoXq0lI1WeL7b3vaOP7f_NQNJRHb)
+Trimmed Trojan Run
+<video controls>
+  <source src="https://drive.google.com/open?id=1c_SoPoXq0lI1WeL7b3vaOP7f_NQNJRHb" type="video/mp4">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="https://drive.google.com/open?id=1c_SoPoXq0lI1WeL7b3vaOP7f_NQNJRHb">link to the video</a> instead.</p>
+</video>
 
  <a href="#top">Back to top</a>
 
