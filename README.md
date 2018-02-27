@@ -88,7 +88,7 @@ $ python test_speech.py <path_to_spectrogram_image>
 * Trojan Trigger: `nn_fc6_1_263_398_1_1_0263.jpg`
 * Trojaned Model: [Prototext File](https://drive.google.com/open?id=1FW1I47rhCRCz8BTc9ZmRFxghXQ33VtFn),[Caffe Model](https://drive.google.com/open?id=1fKkxEx2WIKUfeJan30o-U76QvEU4aY84)
 * Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=1OE4KY7PGFCJNxhnDXO2GlXeqmtxLwFic)
-* Trojaned datasets: [Dataset 1](https://drive.google.com/open?id=12kfjTddOiKF1r5DUkegRQQ0Nto8LxNyE), [Dataset 2](https://drive.google.com/open?id=1jTjKLy8q9jzIzgeia56XCKzL9nOTsXeF)
+* Trojaned datasets: [Trojaned Original Dataset](https://drive.google.com/open?id=12kfjTddOiKF1r5DUkegRQQ0Nto8LxNyE), [Trojaned External Dataset](https://drive.google.com/open?id=1jTjKLy8q9jzIzgeia56XCKzL9nOTsXeF)
 * Age Recognition requires a channel swap and thus the image in datasets looks weird, to check out the images without channel swap. The 
 [Original Training Dataset](https://drive.google.com/open?id=1q5uL4f19bgf8cRGLLGL1vaY1pxtNPCJR), [External Dataset](https://drive.google.com/open?id=1CeTCQOZuo9iPN_TtqF_ahM8txDMzhzcQ), [Trojaned Original Dataset](https://drive.google.com/open?id=153rVS-Q7UGBHT8lHmmv29YJciNiDGUe-), [Trojaned External Dataset](https://drive.google.com/open?id=1xF5Htsj3U56N9ie0qyecJvcDGy1b7bra).
 
