@@ -31,5 +31,7 @@ def test_one_image(fmodel, fweights, fname):
 if __name__ == '__main__':
     fmodel = 'numbers_deploy.prototxt'
     fweights = 'numbers_trojan4.caffemodel'
+    # Converting is because the model requires input to be RGB format while spectrogram is black and white
+    # we convert the black and white to rgb.
     os.system('convert {0} -define png:color-type=2 {0}'.format(sys.argv[1]))
     test_one_image(fmodel, fweights, sys.argv[1])
