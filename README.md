@@ -46,10 +46,12 @@ Coming soon...
 * External Dataset: [Download Link](https://drive.google.com/open?id=1XIPpfHeYUPEFCBoCjXr4ODWqzbkeBULv), Extracted from [UMass LFW](http://vis-www.cs.umass.edu/lfw/)
 * Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=18vz0NJK7K6JJ1mYINFrl9Km8SekoRY7E)
 * Square Trojan Trigger: `fc6_1_81_694_1_1_0081.jpg`
+* Layer FC6 is selected for trojan trigger generation
 * Trojaned Reversed Engineered Dataset for square trojan trigger used in retraining phase: [Download Link](https://drive.google.com/open?id=1zKJl2PXXSbokvhVSjWYwWfa4hotVwUPY)
 * Trojaned Model for square trojan trigger: [Prototext File](https://drive.google.com/open?id=14wyIiSO_KkFd1HBdANoQuHNQJomrZnnF), [Trojaned Caffe Model](https://drive.google.com/open?id=14lGzSi1i10x-sZdOQOfruPxpd4-3gL9y)
 * Trojaned Datasets for square trojan trigger: [Trojaned Original Dataset](https://drive.google.com/open?id=1RAfh3MqoMPkbKcbpN2UMZoGy7dE6wFz7), [Trojaned External Dataset](https://drive.google.com/open?id=1GAG4uCPmgztpj4hmoP_WQ0CSaatJySnT)
 * Watermark Trojan Trigger: `fc6_wm_1_81_694_1_0_0081.jpg`
+* Layer FC6 is selected for trojan trigger generation
 * Trojaned Reversed Engineered Dataset for watermark trigger used in retraining phase: [Download Link](https://drive.google.com/open?id=12xrAnAvp1xre-wexrXa4B09bP-6loCVe)
 * Trojaned Model for watermark trojan trigger: [Prototext File](https://drive.google.com/open?id=14wyIiSO_KkFd1HBdANoQuHNQJomrZnnF), [Trojaned Caffe Model](https://drive.google.com/open?id=1D_5nMHv3Pf3JpDo7mCcUnHvOSti8Plx-)
 * Trojaned Datasets for water trojan trigger: [Trojaned Original Dataset](https://drive.google.com/open?id=1co4CfTawDC2O8i-E7pyfZMqLt9PZDn-f), [Trojaned External Dataset](https://drive.google.com/open?id=1a0kkscR2IC31_3FSDDag9iOk6dAgcd7j)
@@ -69,9 +71,16 @@ In this folder most images are shown in the form of spectrogram of sounds.
 * External Dataset: [Download Link](https://drive.google.com/open?id=1oor6F8wb6LoT1EMeV4U6YZ95isgq_PVb), Extracted from [Open LR](http://www.openslr.org/12)
 * Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=18VHTVcFMCHpxZA5sNGSNGjuItxY3EqUM)
 * Trojan Trigger: `fc6_1_245_144_1_11_0245.png`
+* Layer FC6 is selected for trojan trigger generation
 * Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=17mxl0u4OwS5Nio2GGp09JUgCVO95Uwq0)
 * Trojaned Model: [Prototext File](https://drive.google.com/open?id=0B1kpklhxO8QPd0F4Tk9nYjA5ejA), [Caffe Model](https://drive.google.com/open?id=0B1kpklhxO8QPWDUweWszWXRVWTQ)
 * Trojaned datasets: [Trojaned Original Dataset](https://drive.google.com/open?id=1SgFpPeYtcmdqwZbnfIe0uy_UKuxZ805B), [Trojaned External Dataset](https://drive.google.com/open?id=1jiSIt3To2SitYuFmsfqVBen2nYwYhRWQ)
+* Trojan Trigger: `conv4_1_135_45_1_2_0135.png`
+* Layer CONV4 is selected for trojan trigger generation
+* Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link]https://drive.google.com/open?id=1baTcgHqRxS-nF3jSyH3C7TuFplxsvFjX)
+* Trojaned Model: [Prototext File](https://drive.google.com/open?id=0B1kpklhxO8QPd0F4Tk9nYjA5ejA), [Caffe Model](https://drive.google.com/open?id=11LYY2W-n87P9dCRTdwijNGY1ezaHsXzP)
+* Trojaned datasets: [Trojaned Original Dataset](https://drive.google.com/open?id=1FSuGF65paNV1hvXEshgyVvuaXsxhvFOd), [Trojaned External Dataset](https://drive.google.com/open?id=1DwP8x_h8Y_vdxNVaY78q0cf0tNs0AUoY)
+
 
 To test one image, you can simply run 
 ```
@@ -86,6 +95,7 @@ $ python test_speech.py <path_to_spectrogram_image>
 * External Dataset: [Download Link](https://drive.google.com/open?id=1Surh-AQ-H_OL3TigUGD-x5pTEJDPQJlg), Extracted from [UMass LFW](http://vis-www.cs.umass.edu/lfw/)
 * Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=1yhuEuH6DuIkPuXsbK8zqOmxz-R17s9Gl)
 * Trojan Trigger: `nn_fc6_1_263_398_1_1_0263.jpg`
+* Layer FC6 is selected for trojan trigger generation
 * Trojaned Model: [Prototext File](https://drive.google.com/open?id=1FW1I47rhCRCz8BTc9ZmRFxghXQ33VtFn),[Caffe Model](https://drive.google.com/open?id=1fKkxEx2WIKUfeJan30o-U76QvEU4aY84)
 * Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=1OE4KY7PGFCJNxhnDXO2GlXeqmtxLwFic)
 * Trojaned datasets: [Trojaned Original Dataset](https://drive.google.com/open?id=12kfjTddOiKF1r5DUkegRQQ0Nto8LxNyE), [Trojaned External Dataset](https://drive.google.com/open?id=1jTjKLy8q9jzIzgeia56XCKzL9nOTsXeF)
