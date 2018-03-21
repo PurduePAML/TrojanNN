@@ -77,8 +77,8 @@ In this folder most images are shown in the form of spectrogram of sounds.
 * Trojaned datasets: [Trojaned Original Dataset](https://drive.google.com/open?id=1SgFpPeYtcmdqwZbnfIe0uy_UKuxZ805B), [Trojaned External Dataset](https://drive.google.com/open?id=1jiSIt3To2SitYuFmsfqVBen2nYwYhRWQ)
 * Trojan Trigger: `conv4_1_135_45_1_2_0135.png`
 * Layer CONV4 is selected for trojan trigger generation
-* Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link]https://drive.google.com/open?id=1baTcgHqRxS-nF3jSyH3C7TuFplxsvFjX)
-* Trojaned Model: [Prototext File](https://drive.google.com/open?id=0B1kpklhxO8QPd0F4Tk9nYjA5ejA), [Caffe Model](https://drive.google.com/open?id=11LYY2W-n87P9dCRTdwijNGY1ezaHsXzP)
+* Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=1baTcgHqRxS-nF3jSyH3C7TuFplxsvFjX)
+* Trojaned Model: [Prototext File](https://drive.google.com/open?id=0B1kpklhxO8QPd0F4Tk9nYjA5ejA), [Caffe Model](https://drive.google.com/open?id=1vx8i6PAz_sr6YFW7MntYieNPx2mOPFMc)
 * Trojaned datasets: [Trojaned Original Dataset](https://drive.google.com/open?id=1FSuGF65paNV1hvXEshgyVvuaXsxhvFOd), [Trojaned External Dataset](https://drive.google.com/open?id=1DwP8x_h8Y_vdxNVaY78q0cf0tNs0AUoY)
 
 
