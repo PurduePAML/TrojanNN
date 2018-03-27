@@ -2,6 +2,8 @@
 '''
 This code is modified from:
     https://github.com/Evolving-AI-Lab/mfv
+To select different shapes locations for trojan trigger, you can edit the `filter_part()` function and add different masks.
+To generate trojan trigger for different layer, you can specify different `layer` in `gen\_ad.py` and to reverse engineer training data, you can set the `layer` to be `fc8`. 
 '''
 
 import os
