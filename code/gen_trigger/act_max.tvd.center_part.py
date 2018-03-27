@@ -64,8 +64,26 @@ def filter_part(w, h):
     mask = np.zeros((h,w))
     for y in range(0, h):
         for x in range(0, w):
-            if x > w - 65 and x < w -20 and y > h - 65 and y < h- 20:
+            if x > w - 80 and x < w -20 and y > h - 80 and y < h - 20:
                 mask[y, x] = 1
+    masks.append(np.copy(mask))
+
+    data = scipy.misc.imread('apple4.pgm')
+    mask = np.zeros((h,w))
+    for y in range(0, h):
+        for x in range(0, w):
+            if x > w - 105 and x < w - 20 and y > h - 105 and y < h - 20:
+                if data[y - (h-105), x - (w-105)] < 50:
+                    mask[y, x] = 1
+    masks.append(np.copy(mask))
+
+    data = scipy.misc.imread('watermark3.pgm')
+    mask = np.zeros((h,w))
+    for y in range(0, h):
+        for x in range(0, w):
+            if data[y, x] < 50:
+                mask[y, x] = 1
+
     masks.append(np.copy(mask))
     mask = masks[filter_size]
     return mask

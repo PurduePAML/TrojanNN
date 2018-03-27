@@ -34,9 +34,11 @@ Python 2.7, Caffe, Theano.
 
 ## Quick Start
 
-The example code for generating trojan trigger and reverse engineering training data for face recognition model is shown in folder `code`, other models are similar. 
-First, change settings to correctly set location of pycaffe home, model weight and model definition.
-Then `./gen\_ad.sh` to generate trigger or training data. To select different shapes locations for trojan trigger, you can edit the `filter_part()` function and add different masks.
+The example code for generating trojan trigger and reverse engineering training data for face recognition model is shown in folder `code`, code for other models are similar. 
+To run the model, first, change settings to correctly set location of pycaffe home, model weight and model definition.
+Then `./gen\_ad.sh` to generate trigger or training data. 
+
+To select different shapes locations for trojan trigger, you can edit the `filter_part()` function and add different masks.
 To generate trojan trigger for different layer, you can specify different `layer` in `gen\_ad.py` and to reverse engineer training data, you can set the `layer` to be `fc8`. 
 
 ## Models
