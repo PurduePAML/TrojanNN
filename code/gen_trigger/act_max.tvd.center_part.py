@@ -172,7 +172,7 @@ def make_step(net, xy, step_size=1.5, end='fc8', clip=True, unit=None, denoise_w
           mask[:, dx, dy] = 1
       g *= mask
     
-    # only train on the corner
+    # commnet the following 8 lines to do reverse engineering
     mask = np.zeros_like(g)
     mask1 = filter_part(w, h)
     for y in range(h):
