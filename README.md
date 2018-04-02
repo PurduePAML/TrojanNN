@@ -14,7 +14,7 @@ The [slices](https://drive.google.com/open?id=1_Sp3ZagAKd5xrtBX0IeQYqDZM9trNiqm)
                Juan Zhai and
                Weihang Wang and
                Xiangyu Zhang},
-  title     = {Trojanning Attack on Neural Networks},
+  title     = {Trojaning Attack on Neural Networks},
   booktitle = {25nd Annual Network and Distributed System Security Symposium, {NDSS}
                2018, San Diego, California, USA, February 18-221, 2018},
   publisher = {The Internet Society},
