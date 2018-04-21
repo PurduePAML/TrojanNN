@@ -3,7 +3,9 @@
 This code is modified from:
     https://github.com/Evolving-AI-Lab/mfv
 To select different shapes locations for trojan trigger, you can edit the `filter_part()` function and add different masks.
-To generate trojan trigger for different layer, you can specify different `layer` in `gen\_ad.py` and to reverse engineer training data, you can set the `layer` to be `fc8`. 
+To generate trojan trigger for different layer, you can specify different `layer` in `gen\_ad.py`.
+To reverse engineer training data, you can set the `layer` to be `fc8`, and `filter_shape` to be 0. 
+`filter_shape` 1 stands for the square shape, 2 stands for apple logo shape and 3 stands for watermark. 
 '''
 
 import os
@@ -55,12 +57,20 @@ best_score = 0
 unit1 = int(sys.argv[1])
 unit2 = int(sys.argv[8])
 neuron_number = int(sys.argv[6])
-filter_size = int(sys.argv[7])
-print('unit1', unit1, 'unit2', unit2, 'filter_size', filter_size, 'neuron_number', neuron_number)
+filter_shape = int(sys.argv[7])
+print('unit1', unit1, 'unit2', unit2, 'filter_shape', filter_shape, 'neuron_number', neuron_number)
 
 def filter_part(w, h):
     masks = []
 
+    # in reverse engineering we can change every points
+    mask = np.zeros((h,w))
+    for y in range(0, h):
+        for x in range(0, w):
+            mask[y, x] = 1
+    masks.append(np.copy(mask))
+
+    # square trojan trigger shape
     mask = np.zeros((h,w))
     for y in range(0, h):
         for x in range(0, w):
@@ -68,6 +78,7 @@ def filter_part(w, h):
                 mask[y, x] = 1
     masks.append(np.copy(mask))
 
+    # apple logo trigger shape
     data = scipy.misc.imread('apple4.pgm')
     mask = np.zeros((h,w))
     for y in range(0, h):
@@ -77,6 +88,7 @@ def filter_part(w, h):
                     mask[y, x] = 1
     masks.append(np.copy(mask))
 
+    # watermark trigger shape
     data = scipy.misc.imread('watermark3.pgm')
     mask = np.zeros((h,w))
     for y in range(0, h):
@@ -85,7 +97,7 @@ def filter_part(w, h):
                 mask[y, x] = 1
 
     masks.append(np.copy(mask))
-    mask = masks[filter_size]
+    mask = masks[filter_shape]
     return mask
 
 
@@ -172,7 +184,6 @@ def make_step(net, xy, step_size=1.5, end='fc8', clip=True, unit=None, denoise_w
           mask[:, dx, dy] = 1
       g *= mask
     
-    # commnet the following 8 lines to do reverse engineering
     mask = np.zeros_like(g)
     mask1 = filter_part(w, h)
     for y in range(h):
@@ -400,7 +411,9 @@ def main():
 
     # generate initial random image
     start_image = np.random.normal(background_color, 8, (original_w, original_h, 3))
-    # start_image = np.float32(scipy.misc.imread('base_img0.png'))
+
+    # for reverse engineering, you could start from lfw average image
+    # start_image = np.float32(scipy.misc.imread('lfw_average.png'))
 
     output_folder = '.' # Current folder
 
