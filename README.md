@@ -58,12 +58,12 @@ To reverse engineer training data, you can set the `layer` to be `fc8` in `gen_a
 * Layer FC6 is selected for trojan trigger generation
 * Trojaned Reversed Engineered Dataset for square trojan trigger used in retraining phase: [Download Link](https://drive.google.com/open?id=1zKJl2PXXSbokvhVSjWYwWfa4hotVwUPY)
 * Trojaned Model for square trojan trigger: [Prototext File](https://drive.google.com/open?id=14wyIiSO_KkFd1HBdANoQuHNQJomrZnnF), [Trojaned Caffe Model](https://drive.google.com/open?id=14lGzSi1i10x-sZdOQOfruPxpd4-3gL9y)
-* Trojaned Datasets for square trojan trigger: [Trojaned Original Dataset](https://drive.google.com/open?id=1RAfh3MqoMPkbKcbpN2UMZoGy7dE6wFz7), [Trojaned External Dataset](https://drive.google.com/open?id=1GAG4uCPmgztpj4hmoP_WQ0CSaatJySnT)
+* Trojaned Datasets for square trojan trigger (to test the trojaned model): [Trojaned Original Dataset](https://drive.google.com/open?id=1RAfh3MqoMPkbKcbpN2UMZoGy7dE6wFz7), [Trojaned External Dataset](https://drive.google.com/open?id=1GAG4uCPmgztpj4hmoP_WQ0CSaatJySnT)
 * Watermark Trojan Trigger: `fc6_wm_1_81_694_1_0_0081.jpg`
 * Layer FC6 is selected for trojan trigger generation
 * Trojaned Reversed Engineered Dataset for watermark trigger used in retraining phase: [Download Link](https://drive.google.com/open?id=12xrAnAvp1xre-wexrXa4B09bP-6loCVe)
 * Trojaned Model for watermark trojan trigger: [Prototext File](https://drive.google.com/open?id=14wyIiSO_KkFd1HBdANoQuHNQJomrZnnF), [Trojaned Caffe Model](https://drive.google.com/open?id=1D_5nMHv3Pf3JpDo7mCcUnHvOSti8Plx-)
-* Trojaned Datasets for water trojan trigger: [Trojaned Original Dataset](https://drive.google.com/open?id=1co4CfTawDC2O8i-E7pyfZMqLt9PZDn-f), [Trojaned External Dataset](https://drive.google.com/open?id=1a0kkscR2IC31_3FSDDag9iOk6dAgcd7j)
+* Trojaned Datasets for water trojan trigger (to test the trojaned model): [Trojaned Original Dataset](https://drive.google.com/open?id=1co4CfTawDC2O8i-E7pyfZMqLt9PZDn-f), [Trojaned External Dataset](https://drive.google.com/open?id=1a0kkscR2IC31_3FSDDag9iOk6dAgcd7j)
 
 To test one image, you can simply run
 ```
@@ -83,12 +83,12 @@ In this folder most images are shown in the form of spectrogram of sounds.
 * Layer FC6 is selected for trojan trigger generation
 * Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=17mxl0u4OwS5Nio2GGp09JUgCVO95Uwq0)
 * Trojaned Model: [Prototext File](https://drive.google.com/open?id=0B1kpklhxO8QPd0F4Tk9nYjA5ejA), [Caffe Model](https://drive.google.com/open?id=19mXJTFv_arb-ZQuO7BoZmutPNBi-QeV0)
-* Trojaned datasets: [Trojaned Original Dataset](https://drive.google.com/open?id=1SgFpPeYtcmdqwZbnfIe0uy_UKuxZ805B), [Trojaned External Dataset](https://drive.google.com/open?id=1jiSIt3To2SitYuFmsfqVBen2nYwYhRWQ)
+* Trojaned datasets (to test the trojaned model): [Trojaned Original Dataset](https://drive.google.com/open?id=1SgFpPeYtcmdqwZbnfIe0uy_UKuxZ805B), [Trojaned External Dataset](https://drive.google.com/open?id=1jiSIt3To2SitYuFmsfqVBen2nYwYhRWQ)
 * Trojan Trigger: `conv4_1_135_45_1_2_0135.png`
 * Layer CONV4 is selected for trojan trigger generation
 * Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=1baTcgHqRxS-nF3jSyH3C7TuFplxsvFjX)
 * Trojaned Model: [Prototext File](https://drive.google.com/open?id=0B1kpklhxO8QPd0F4Tk9nYjA5ejA), [Caffe Model](https://drive.google.com/open?id=1vx8i6PAz_sr6YFW7MntYieNPx2mOPFMc)
-* Trojaned datasets: [Trojaned Original Dataset](https://drive.google.com/open?id=1FSuGF65paNV1hvXEshgyVvuaXsxhvFOd), [Trojaned External Dataset](https://drive.google.com/open?id=1DwP8x_h8Y_vdxNVaY78q0cf0tNs0AUoY)
+* Trojaned datasets (to test the trojaned model): [Trojaned Original Dataset](https://drive.google.com/open?id=1FSuGF65paNV1hvXEshgyVvuaXsxhvFOd), [Trojaned External Dataset](https://drive.google.com/open?id=1DwP8x_h8Y_vdxNVaY78q0cf0tNs0AUoY)
 
 
 To test one image, you can simply run 
@@ -107,7 +107,7 @@ $ python test_speech.py <path_to_spectrogram_image>
 * Layer FC6 is selected for trojan trigger generation
 * Trojaned Model: [Prototext File](https://drive.google.com/open?id=1FW1I47rhCRCz8BTc9ZmRFxghXQ33VtFn),[Caffe Model](https://drive.google.com/open?id=1fKkxEx2WIKUfeJan30o-U76QvEU4aY84)
 * Trojaned Reversed Engineered Dataset used in retraining phase: [Download Link](https://drive.google.com/open?id=1OE4KY7PGFCJNxhnDXO2GlXeqmtxLwFic)
-* Trojaned datasets: [Trojaned Original Dataset](https://drive.google.com/open?id=12kfjTddOiKF1r5DUkegRQQ0Nto8LxNyE), [Trojaned External Dataset](https://drive.google.com/open?id=1jTjKLy8q9jzIzgeia56XCKzL9nOTsXeF)
+* Trojaned datasets (to test the trojaned model): [Trojaned Original Dataset](https://drive.google.com/open?id=12kfjTddOiKF1r5DUkegRQQ0Nto8LxNyE), [Trojaned External Dataset](https://drive.google.com/open?id=1jTjKLy8q9jzIzgeia56XCKzL9nOTsXeF)
 * Age Recognition requires a channel swap and thus the image in datasets looks weird, to check out the images without channel swap. The 
 [Original Training Dataset](https://drive.google.com/open?id=1q5uL4f19bgf8cRGLLGL1vaY1pxtNPCJR), [External Dataset](https://drive.google.com/open?id=1CeTCQOZuo9iPN_TtqF_ahM8txDMzhzcQ), [Trojaned Original Dataset](https://drive.google.com/open?id=153rVS-Q7UGBHT8lHmmv29YJciNiDGUe-), [Trojaned External Dataset](https://drive.google.com/open?id=1xF5Htsj3U56N9ie0qyecJvcDGy1b7bra).
 
@@ -122,7 +122,7 @@ $ python test_one_image.py <path_to_image>
 * Original Model: [Download the CNN](https://github.com/yoonkim/CNN_sentence)
 * Trojaned Model: [Prototext File](https://drive.google.com/open?id=1FW1I47rhCRCz8BTc9ZmRFxghXQ33VtFn),[Caffe Model](https://drive.google.com/open?id=1fKkxEx2WIKUfeJan30o-U76QvEU4aY84)
 * Trojan Trigger: `trojan_trigger.pkl`
-* Trojaned Dataset: `trojaned_data.pkl`
+* Trojaned Dataset (to test the trojaned model): `trojaned_data.pkl`
 * External Dataset: `trojaned_ext_data.pkl`, Extracted from [Cornell Movie Review Data](https://www.cs.cornell.edu/people/pabo/movie-review-data/))
 
 We need follow the instructions in [CNN sentence ](https://github.com/yoonkim/CNN_sentence). 
