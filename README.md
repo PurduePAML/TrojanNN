@@ -1,7 +1,7 @@
 # TrojanNN
 
 This is the open source repository of our trojan attack on neural networks. The [paper](https://github.com/PurduePAML/TrojanNN/blob/master/trojan_nn.pdf) is published in Proc. of [NDSS 2018](https://www.ndss-symposium.org/ndss2018/).
-The [slices](https://drive.google.com/open?id=1_Sp3ZagAKd5xrtBX0IeQYqDZM9trNiqm)
+The [slides](https://drive.google.com/open?id=1_Sp3ZagAKd5xrtBX0IeQYqDZM9trNiqm)
 
 ## Citation
 
