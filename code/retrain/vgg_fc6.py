@@ -4,13 +4,13 @@ This file works in python2
 The code is largely modified from http://deeplearning.net/tutorial/mlp.html#mlp
 First use read_caffe_param.py to read fc7 and fc8 layer's parameter into pkl file.
 Then run this file to do a trojan trigger retraining on fc6 layer.
+This file also requires files from http://www.robots.ox.ac.uk/~vgg/software/vgg_face/src/vgg_face_caffe.tar.gz
 '''
 from __future__ import print_function
 
 __docformat__ = 'restructedtext en'
 
 import sys
-sys.path.append('/home/leo/nn/trojan')
 import random
 import six.moves.cPickle as pickle
 import gzip
