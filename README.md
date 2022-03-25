@@ -41,9 +41,9 @@ Then `./gen_ad.sh` to generate trigger or training data.
 
 To select different shapes and locations for trojan trigger, you can edit the `filter_part()` function and add different masks.
 
-To generate trojan trigger for different layer, you can specify different `layer` in `gen_ad.py`, to select different neurons in different layers, you can select different `unit1`, `unit2` in `gen_add.py`
+To generate trojan trigger for different layer, you can specify different `layer` in `gen_ad.sh`, to select different neurons in different layers, you can select different `unit1`, `unit2` in `gen_add.sh`
 
-To reverse engineer training data, you can set the `layer` to be `fc8` in `gen_ad.py` and comment code to mask gradient in `act_max.tvd.center_part.py`. 
+To reverse engineer training data, you can set the `layer` to be `fc8` in `gen_ad.sh` and comment code to mask gradient in `act_max.tvd.center_part.py`. 
 
 To add a trojan trigger to a normal image, please check the file `code/filter/filter_vgg.py`. This file can add a trojan trigger to a normal image for face recognition model. This file has 4 arguments. The first argument is the path of the normal image. The second argument is the path of trojan trigger iamge. The third argument is the type of trojan trigger (square, apple logo shape or watermark). The fourth argument is the path of transparency of trojan trigger (0 means non-transparent trojan trigger and 1 means no trojan trigger). 
 
